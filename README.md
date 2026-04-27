@@ -5,7 +5,7 @@
 **The Narrative Database of 1920s Serialized Yadam *Giingisa***
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) *(※ Zenodo 연동 후 발급받은 DOI 배지로 교체하세요)*
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19808482.svg)](https://doi.org/10.5281/zenodo.19808482) *(※ Zenodo 연동 후 발급받은 DOI 배지로 교체하세요)*
 
 ## 🇰🇷 프로젝트 개요 (Overview in Korean)
 본 데이터베이스는 1920년대 근대 매체(매일신보)에 연재된 한글 야담 **『기인기사(奇人奇事)』** 총 88편의 서사 구조를 디지털 인문학적 방법론을 통해 분석하기 위해 구축되었습니다. 
