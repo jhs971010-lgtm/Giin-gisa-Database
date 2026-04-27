@@ -5,14 +5,14 @@
 **The Narrative Database of 1920s Serialized Yadam *Giingisa***
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19808482.svg)](https://doi.org/10.5281/zenodo.19808482) *(※ Zenodo 연동 후 발급받은 DOI 배지로 교체하세요)*
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19808482.svg)](https://doi.org/10.5281/zenodo.19808482) 
 
 ## 🇰🇷 프로젝트 개요 (Overview in Korean)
 본 데이터베이스는 1920년대 근대 매체(매일신보)에 연재된 한글 야담 **『기인기사(奇人奇事)』** 총 88편의 서사 구조를 디지털 인문학적 방법론을 통해 분석하기 위해 구축되었습니다. 
 
 단순한 텍스트의 집합을 넘어, 개별 일화 속에 등장하는 ** 인물(Character), 장소(Location), 공간(Space), 시대(Time), 물품(Item) **을 기본 모듈로 분할하고, 인물의 욕망에 따른 ** 서사적 반전(하강과 상승) **을 확장 모듈로 구조화한 관계형 데이터베이스(RDB)입니다. 이를 통해 1920년대 독자들이 소비했던 야담의 지리적 상상력, 역사적 기억의 소환, 그리고 세속적 욕망의 양상을 정량적이고 입체적으로 추적할 수 있습니다.
 
-* **연구자:** 조현석 (고려대학교 국어국문학과 고전문학 전공 박사과정)
+* **연구자:** *****
 * **분석 대상:** 송순기 편저, 『기인기사록』 상·하 (1921, 1923) 및 신문 연재본 총 88편
 
 ---
@@ -67,10 +67,10 @@ The repository contains the following CSV files, which are interconnected via `A
 If you use this dataset for academic purposes, please cite the following presentation/paper:
 
 **[한국어]**
-> 조현석. (2026). "한글 야담 데이터베이스 구축 방안: 신문 연재 『기인기사』를 대상으로". 한국한문고전학회 발표문. 데이터세트: GitHub (또는 DOI 링크).
+> ***. (2026). "논문 제목"
 
 **[English]**
-> Cho, Hyun-seok. (2026). "A Study on the Construction of the Korean Yadam Database: Focusing on the Serialized *Giingisa*." Presentation at the Society of Sino-Korean Classics. Dataset: GitHub (or DOI link).
+> 
 
 ---
 
@@ -79,6 +79,4 @@ If you use this dataset for academic purposes, please cite the following present
 This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)**. You are free to share and adapt the material for any purpose, even commercially, as long as you give appropriate credit.
 
 ## 📬 문의 (Contact)
-* **조현석 (Hyun-seok Cho)**
-* 고려대학교 국어국문학과 고전문학 전공 박사과정 (Ph.D. Student, Korea University)
-* Email: [본인의 이메일 주소 입력]
+투고 완료 전까지 익명 처리합니다.
