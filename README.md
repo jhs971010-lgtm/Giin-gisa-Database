@@ -44,7 +44,7 @@ The repository contains the following CSV files, which are interconnected via `A
 * 서사의 배경이 되는 물리적/지정학적 기초 지명과 GIS 매핑을 위한 위경도 좌표.
 * **Columns:** `LocationID`, `국가(Country)`, `광역지명(Province)`, `기초지명(City/County)`, `위도(Latitude)`, `경도(Longitude)`
 
-### 4. `Space.csv` (서사적 공간 데이터 / Narrative Space Data)
+### 4. `Place.csv` (서사적 공간 데이터 / Narrative Place Data)
 * 단순 좌표를 넘어선 인물의 구체적 생활 및 활동 무대 (예: 집, 길, 관아, 주막 등).
 * **Columns:** `SpaceID`, `Category(분류)`, `Name(공간명)`, `기초지명 매핑`
 
@@ -67,7 +67,7 @@ The repository contains the following CSV files, which are interconnected via `A
 If you use this dataset for academic purposes, please cite the following presentation/paper:
 
 **[한국어]**
-> ***. (2026). "논문 제목"
+> 조현석. (2026). "야담 데이터베이스 구축 방안:신문 연재물 󰡔기인기사󰡕를 대상으로" 강원문화연구
 
 **[English]**
 > 
@@ -79,4 +79,4 @@ If you use this dataset for academic purposes, please cite the following present
 This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)**. You are free to share and adapt the material for any purpose, even commercially, as long as you give appropriate credit.
 
 ## 📬 문의 (Contact)
-투고 완료 전까지 익명 처리합니다.
+조현석(고려대학교 박사 수료, jhs971010@gmail.com)
