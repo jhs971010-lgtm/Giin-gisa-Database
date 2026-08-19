@@ -1,19 +1,12 @@
-# Giin-gisa-Database
-본 프로젝트는 1920년대 근대 매체에 연재된 한글 야담 『기인기사(奇人奇事)』 총 88편의 서사 구조를 디지털 인문학적 방법론으로 재구성한 관계형 데이터베이스(RDB)입니다. 단순한 텍스트 집계를 넘어, 일화 속 인물·장소·공간·시대·물품을 5개의 기본 모듈로 분할하고 인물 욕망에 따른 '추락과 복귀의 반전 서사'를 데이터로 연동했습니다. 이를 통해 당대 대중이 소비한 야담의 지리적 상상력, 국난의 기억, 세속적 욕망을 정량적·입체적으로 조망하며, 고전문학과 데이터 과학이 교차하는 새로운 연구 지평을 제시합니다.
-
 # 1920년대 신문 연재 야담 『기인기사(奇人奇事)』 서사 데이터베이스
 **The Narrative Database of 1920s Serialized Yadam *Giingisa***
+본 데이터는 1921~1922년 매일신보에 연재된 송순기의 한글 연재물(야담 중심) 『기인기사(奇人奇事)』 총 88편의 서사 구조를 관계형 데이터베이스(RDB)로 구축한 것이다. 일화를 포함한 서지 정보 데이터 아래 인물·장소·공간·시대·물품을 5개의 기본 모듈로 추출하고, 그 뒤에 확장 모듈로 '인물 속성 변화'를 데이터로 연동하였다. 
+
+# 원문 이미지 출처:
+https://www.nl.go.kr/newspaper/keyword_search.do?search_keyword=%EA%B8%B0%EC%9D%B8%EA%B8%B0%EC%82%AC
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19808482.svg)](https://doi.org/10.5281/zenodo.19808482) 
-
-## 🇰🇷 프로젝트 개요 (Overview in Korean)
-본 데이터베이스는 1920년대 근대 매체(매일신보)에 연재된 한글 야담 **『기인기사(奇人奇事)』** 총 88편의 서사 구조를 디지털 인문학적 방법론을 통해 분석하기 위해 구축되었습니다. 
-
-단순한 텍스트의 집합을 넘어, 개별 일화 속에 등장하는 ** 인물(Character), 장소(Location), 공간(Space), 시대(Time), 물품(Item) **을 기본 모듈로 분할하고, 인물의 욕망에 따른 ** 서사적 반전(하강과 상승) **을 확장 모듈로 구조화한 관계형 데이터베이스(RDB)입니다. 이를 통해 1920년대 독자들이 소비했던 야담의 지리적 상상력, 역사적 기억의 소환, 그리고 세속적 욕망의 양상을 정량적이고 입체적으로 추적할 수 있습니다.
-
-* **연구자:** *****
-* **분석 대상:** 송순기 편저, 『기인기사록』 상·하 (1921, 1923) 및 신문 연재본 총 88편
 
 ---
 
@@ -29,7 +22,7 @@ It is a relational database (RDB) that breaks down individual anecdotes into bas
 
 ## 📊 데이터 명세서 (Data Dictionary)
 
-본 저장소는 다음의 CSV 파일들로 구성되어 있습니다. 각 파일은 `AnecdoteID(일화 식별자)`를 중심으로 상호 연결됩니다.
+본 저장소는 다음의 CSV 파일들로 구성되어 있다. 각 파일은 `AnecdoteID(일화 식별자)`를 중심으로 상호 연결된다.
 The repository contains the following CSV files, which are interconnected via `AnecdoteID`.
 
 ### 1. `Anecdote.csv` (일화 기본 데이터 / Base Anecdote Data)
@@ -56,8 +49,8 @@ The repository contains the following CSV files, which are interconnected via `A
 * 서사 전개의 매개체로 작동하는 물질적 토대 (예: 문서, 복식, 재물, 음식 등).
 * **Columns:** `ItemID`, `Category(대분류)`, `Sub_Category(중분류)`, `Name(물품명)`, `설명(Description)`
 
-### 7. `Attrivute.csv` (인물 속성 및 서사 반전 데이터 / Character Attribute & Narrative Twist Data)
-* 입신, 재산, 혼인 등 서사 내에서 인물이 겪는 하강과 상승의 '역전(반전) 구조' 데이터.
+### 7. `Attrivute.csv` (인물 속성 변화 데이터 / Character Attribute & Narrative Twist Data)
+* 입신, 재산, 혼인 등 서사 내에서 인물이 겪는 하강과 상승의 변화를 표시한 데이터.
 * **Columns:** `AttributeID`, `속성유형(Type)`, `방향성(Direction - 상승/하강)`, `변화전(Before)`, `변화후(After)`
 
 ---
